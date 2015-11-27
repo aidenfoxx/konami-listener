@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konami Listener</title>
+	<script src="./js/konamilistener.js"></script>
+	<script>
+		function load()
+		{
+			var listener = new KonamiListener(function() { window.open('https://youtu.be/dQw4w9WgXcQ', '_blank'); });
+		}
+	</script>
+	<style>
+		body { font-family: sans-serif; color: #333333; }
+		body > img { float: left; margin-right: 10px; }
+	</style>
+</head>
+<body onload="load()">
+	<h1>Konami Listener</h1>
+	<img src="./img/up.png">
+	<img src="./img/up.png">
+	<img src="./img/down.png">
+	<img src="./img/down.png">
+	<img src="./img/left.png">
+	<img src="./img/right.png">
+	<img src="./img/left.png">
+	<img src="./img/right.png">
+	<img src="./img/b.png">
+	<img src="./img/a.png">
+</body>
+</html>
