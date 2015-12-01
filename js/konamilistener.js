@@ -22,7 +22,7 @@ function KonamiListener(callback, resetTimeout)
 	var input = '';
 	var timeout = null;
 
-	window.addEventListener('keyup', function(e) {
+	document.addEventListener('keyup', function(e) {
 		this.input += e.which;
 		this.input === '38384040373937396665' && callback();
 		clearTimeout(this.timeout);
